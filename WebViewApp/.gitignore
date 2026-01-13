@@ -1,0 +1,32 @@
+# Gradle files
+.gradle/
+/app/build/
+
+# Android Studio files
+.idea/
+local.properties
+.DS_Store
+
+# External native build files
+.cxx/
+
+# AOSP files
+.repo/
+out/
+
+# Local Jars and AARs (if any)
+*.jar
+*.aar
+
+# Crash logs and other debug files
+*.log
+*.stacktrace
+captures/
+
+# Keystore files
+*.keystore
+
+# Gradle wrapper
+!gradle-wrapper.jar
+!gradlew
+!gradlew.bat
