@@ -45,3 +45,9 @@ jobs:
         working-directory: ./WebViewApp
         run: ./gradlew assembleDebug
 
+      # Upload the generated APK
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-debug.apk
+          path: WebViewApp/app/build/outputs/apk/debug/app-debug.apk
